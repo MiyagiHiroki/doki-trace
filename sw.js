@@ -1,7 +1,7 @@
 /* 土器実測図トレース Service Worker
    アプリを更新したら VERSION を変えてください（利用者の端末のキャッシュが入れ替わります）。 */
-const VERSION="doki-trace-v1.0.0";
-const APP_FILES=["./", "index.html", "manifest.webmanifest", "css/app.css", "js/autotrace.js", "js/sample.js", "js/app.js", "js/register-sw.js", "icons/icon-192.png", "icons/icon-512.png", "icons/favicon-32.png", "docs/manual.pdf"];
+const VERSION="doki-trace-v1.0.1";
+const APP_FILES=["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png", "manual.pdf"];
 self.addEventListener("install",e=>{
   e.waitUntil(caches.open(VERSION).then(c=>c.addAll(APP_FILES)).then(()=>self.skipWaiting()));
 });

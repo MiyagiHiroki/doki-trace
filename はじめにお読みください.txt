@@ -1,0 +1,17 @@
+土器実測図トレース ver.1.0.1（GitHub Pages 公開用）
+
+■ アップロードするファイル（7つ。フォルダーはありません）
+  index.html / sw.js / manifest.webmanifest /
+  icon-192.png / icon-512.png / apple-touch-icon.png / manual.pdf
+  ※ この説明書（はじめにお読みください.txt）はアップロード不要です。
+
+■ はじめて公開する場合
+  リポジトリの一番上に、上の7ファイルを直接ドラッグして「Commit changes」。
+  Settings → Pages → Deploy from a branch → main / (root) → Save。
+
+■ ver.1.0.0（フォルダー版）から切り替える場合
+  上の7ファイルを上書きでアップロードしてください。
+  前に入れた css / js / icons / docs フォルダーや README.md などが残っていても、動作に影響しません。
+
+■ 更新するとき
+  変更したファイルと sw.js を必ず一緒に上書きしてください。
